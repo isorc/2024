@@ -1,1 +1,1 @@
-# isorc.github.io/2024/
+# https://isorc.github.io/2024/
