@@ -21,13 +21,13 @@
     <link href="js-and-css/isorc2017.css" rel="stylesheet" type="text/css" />
     <script>
         $(document).ready(function () {
-            $('#home_images').cycle({
-                fx: 'fade',
-                prev: '#prev',
-                next: '#next',
+            $("#home_images").cycle({
+                fx: "fade",
+                prev: "#prev",
+                next: "#next",
                 timeout: 4000,
-                pager: '#jump',
-                before: onBefore
+                pager: "#jump",
+                before: onBefore,
             });
 
             //
@@ -41,7 +41,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
         window.addEventListener("load", function () {
-            window.cookieconsent.initialise(json)
+            window.cookieconsent.initialise(json);
         });
     </script>
 </head>
@@ -51,27 +51,41 @@
         <div id="titleWrapper">
             <div class="leftTitle">
                 <!-- <a href="index.html"> <img src="gfx/isorc-2023.png" style="width: 385px; height: 186px;" /></a> -->
-                
-                <a href="index.html"> <img src="gfx/isorc2024-1.png" height="200" width="385" /></a>
+
+                <a href="index.html">
+                    <img src="isorc2024.png" height="260" width="470" /></a>
             </div>
-            <div id="home_images" style="overflow: hidden;">
+            <div id="home_images" style="overflow: hidden">
                 <!-- <img border="0" height="220" src="./gfx/bannerPics/covid.jpg" width="640" /> -->
-                <img src="./gfx/bannerPics/avenue.jpeg" height="320" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/bardo.jpg" height="280" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/port_sidibou.webp" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/163640480.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/163708710.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/163714639.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/Nashville_downtown3.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/Nashville_vanderbilt.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/Nashville_Mural.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/Nashville_percy.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/Nashville_Johny.jpg" height="220" width="640" border="0" /> <img
-                    src="./gfx/bannerPics/Nashville_cheekwood.jpg" height="220" width="640" border="0" />
+                <img src="./gfx/bannerPics/5178.webp" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/avenue.jpeg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/tunis-sidi-bou.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/sea-hotel.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/boats.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/roman-sbitla.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/bardo.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/zitouna1.jpeg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/163640480.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/fourseason1.jpeg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/163708710.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/163714639.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/TSH_138_original.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/suite_FS_TUNIS_1.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/suite_FS_TUNIS_8.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/Suites_Four_Seasons_Tunis.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/carthage1.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/carthage2.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/porte1.webp" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/cathedrale.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/drapeau.jpg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/folks.jpeg" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/motorace.webp" height="280" width="640" border="0" />
+                <img src="./gfx/bannerPics/marina-gammarth.jpeg" height="280" width="640" border="0" />
+                
             </div>
             <ul id="nav">
-                <li class="aboutColour" style="width: 95px;height: 30px; text-align:center;"><a
-                        href="index.html">HOME</a>
+                <li class="aboutColour" style="width: 95px; height: 30px; text-align: center">
+                    <a href="index.html">HOME</a>
                     <ul class="aboutColour aboutWidth">
                         <li><a href="html/orgCommittee.html">Organizing Committee</a></li>
                         <li><a href="html/pc.html">Program Committee</a></li>
@@ -85,21 +99,28 @@
                     <li><a href="http://www.isorc2015.org/">ISORC 2015</a></li>                    <li><a href="http://www.isorc2014.org/">ISORC 2014</a></li>                    <li><a href="http://www.isorc.de/index.php/">ISORC 2013</a></li>                    <li><a href="http://www.dit.upm.es/~isorc2010/">ISORC 2010</a></li> -->
                     </ul>
                 </li>
-                <li class="cfpColour" style="width: 60px;height: 30px; text-align:center;"><a
-                        href="html/cfp.html">CFP</a>
+                <li class="cfpColour" style="width: 60px; height: 30px; text-align: center">
+                    <a href="html/cfp.html">CFP</a>
                     <ul class="cfpColour callWidth">
                         <li><a class="locWidth" href="html/cfp.html">HTML</a></li>
-                        <li><a class="locWidth" href="resources/CFP/ISORC2024_CFP.pdf" target="_blank">PDF</a></li>
+                        <li>
+                            <a class="locWidth" href="resources/CFP/ISORC2024_CFP.pdf" target="_blank">PDF</a>
+                        </li>
                         <!-- <li><a href="resources/ISORC2018_CFP.txt" target="_blank" class="locWidth">TXT</a></li> -->
                     </ul>
                 </li>
-                <li class="programColour" style="width: 130px;height: 30px"><a href="html/program.html">PROGRAM</a></li>
-                <li class="programColour" style="width: 170px;height: 30px"><a href="html/cr.html">CAMERA-READY</a>
+                <li class="programColour" style="width: 130px; height: 30px">
+                    <a href="html/program.html">PROGRAM</a>
                 </li>
-                <li class="regColour" style="width: 164px;height: 30px"><a
-                        href="html/registration.html">REGISTRATION</a>
+                <li class="programColour" style="width: 170px; height: 30px">
+                    <a href="html/cr.html">CAMERA-READY</a>
                 </li>
-                <li class="regColour" style="width: 95px;height: 30px"><a href="html/travel.html">TRAVEL</a></li>
+                <li class="regColour" style="width: 164px; height: 30px">
+                    <a href="html/registration.html">REGISTRATION</a>
+                </li>
+                <li class="regColour" style="width: 95px; height: 30px">
+                    <a href="html/travel.html">TRAVEL</a>
+                </li>
                 <!--       <li class="locColour" style="width: 135px; "><a href="#">VENUE</a>
                       <ul class="locColour locWidth">                          <li><a href="html/gettinghere.html" class="locWidth">How to get to us</a></li>                        <li><a href="http://www.ntu.edu.sg/nec/Pages/default.aspx" target="_blank" class="locWidth">Conference location</a></li>                        <li><a href="http://www.ntu.edu.sg/nec/guestrooms/Pages/Rates.aspx" target="_blank" class="locWidth">Hotel at NTU</a></li>                        <li><a href="http://www.ntu.edu.sg/AboutNTU/visitingntu/Pages/location.aspx" target="_blank" class="locWidth">Getting to NTU</a></li>                      </ul>                    </li>
             -->
@@ -109,15 +130,26 @@
                 <li class="programColour" style="width: 130px; height: 30px">
                     <a href="html/workshop.html">WORKSHOP</a>
                 </li>
-                <li class="programColour" style="width: 115px;height: 30px"><a href="html/contact.html">CONTACT</a></li>
+                <li class="programColour" style="width: 115px; height: 30px">
+                    <a href="html/contact.html">CONTACT</a>
+                </li>
             </ul>
             <div class="contentArea">
                 <div class="contentTitle">
-                    <!-- InstanceBeginEditable name="TitleRegion" -->WELCOME TO THE IEEE ISORC 2024
+                    <!-- InstanceBeginEditable name="TitleRegion" -->WELCOME TO THE IEEE
+                    ISORC 2024
                     <!-- InstanceEndEditable -->
                 </div>
-                <div class="highlightBox"
-                    style="background-color: #f49d0e; border-color: #1d4e89; font-size: 18px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:normal; text-align: left">
+                <div class="highlightBox" style="
+              background-color: #f49d0e;
+              border-color: #1d4e89;
+              font-size: 18px;
+              padding: 5px;
+              padding-left: 5px;
+              margin-top: 20px;
+              font-weight: normal;
+              text-align: left;
+            ">
                     <b>Last Updates</b>  
                     <!--   <ul>
                         <li>Registrations are now open
@@ -139,50 +171,57 @@
                 <!-- InstanceBeginEditable name="ContentRegion" --><br />
                 <div class="contentArea">
                     <div class="box1">
-                        <p align="justify"><strong>IEEE ISORC</strong> was founded in 1998 (with its first meeting in
-                            Kyoto, Japan) to address research into the application of real-time object-oriented
-                            distributed technology. Since then, ISORC has continually evolved to
-                            meet the latest challenges faced by researchers and practitioners in the real-time domain,
-                            with an emphasis on object-, component- and service-oriented systems and solutions. </p>
-                        <p align="justify">ISORC is a <strong>single-track conference,</strong> with a lively community.
-                            We have hosted a number of associated workshops, and are proud of our spirit of openness. We
-                            seek to encourage diverse views and new approaches to all
-                            Real-Time Issues and Challenges for novel applications and systems in RT computing issues.
+                        <p align="justify">
+                            <strong>IEEE ISORC</strong> was founded in 1998 (with its first
+                            meeting in Kyoto, Japan) to address research into the
+                            application of real-time object-oriented distributed technology.
+                            Since then, ISORC has continually evolved to meet the latest
+                            challenges faced by researchers and practitioners in the
+                            real-time domain, with an emphasis on object-, component- and
+                            service-oriented systems and solutions.
+                        </p>
+                        <p align="justify">
+                            ISORC is a <strong>single-track conference,</strong> with a
+                            lively community. We have hosted a number of associated
+                            workshops, and are proud of our spirit of openness. We seek to
+                            encourage diverse views and new approaches to all Real-Time
+                            Issues and Challenges for novel applications and systems in RT
+                            computing issues.
                         </p>
                         <!--This year's theme is <span style="color: #FF3300"><strong>Scalable, Real Time Analytics.</strong></span></p>-->
                         <!--                         <p align="justify"> Accepted papers from ISORC 2023 will be invited for submission to a Special Issue of a Journal that will be advertised in short.</p>
  -->
-                        <p align="justify">Papers are to be submitted through the <a href="https://isorc23.hotcrp.com/"
-                                target="_blank" rel="noopener noreferrer">
-                                HotCRP system</a>.</p>
+                        <p align="justify">
+                            Papers are to be submitted through the
+                            <a href="https://isorc23.hotcrp.com/" target="_blank" rel="noopener noreferrer">
+                                HotCRP system</a>.
+                        </p>
                         <!--                         <p align="justify"> For details about the <b> Open Distributed
                                 Real-time Embedded (ODRE) systems workshop</b>, please click <a href="http://odre2020.bridgeus.de"> here</a>. </p>
  -->
                         <!--                         <p align="justify"> Registration link is available now, please visit <a href="html/registration.html">Registration</a> page for details. </p>
  -->
-                        <p align="justify"> For our 27th symposium, <strong>we are
-                                meeting in Tunisia, </strong>
-                            in the city of <b>Carthage</b>, Tunisia
-                            from <strong>May 24
-                                - 26, 2023</strong> .
-                            Our meetings will take place at
+                        <p align="justify">
+                            For our 27th symposium,
+                            <strong>we are meeting in Tunisia, </strong> in the city of
+                            <b>Carthage</b>, Tunisia from
+                            <strong>May 24 - 26, 2023</strong> . Our meetings will take
+                            place at
                             <b>
                                 <a href="https://www.fourseasons.com/fr/tunis/" target="_blank"
                                     rel="noopener noreferrer">
                                     Four Seasons Hotels and Resorts
-
                                 </a>
                                 <!-- <a href="https://goo.gl/maps/cpZNeZMoaBBPwjmX7" target="_blank"
                                     rel="noopener noreferrer">Vanderbilt
                                     University School of Engineering 
                                     (Featheringill Hall Auditorium room 134).
-                                </a>  -->
-
-                            </b>.
+                                </a>  --> </b>.
                             <!-- <a href="http://www.ntu.edu.sg/nec/Pages/default.aspx">Nanyang Executive Centre, NTU</a>. -->
-                            For more information on IEEE ISORC 2024 and its location, calls for papers, workshops, and
-                            events, please use the menu bar at the top of the screen of the main page. We look forward
-                            to seeing you in Tunisia in Carthage 2024!
+                            For more information on IEEE ISORC 2024 and its location, calls
+                            for papers, workshops, and events, please use the menu bar at
+                            the top of the screen of the main page. We look forward to
+                            seeing you in Tunisia in Carthage 2024!
                         </p>
                         <div class="mapouter">
                             <div class="gmap_canvas">
@@ -216,14 +255,13 @@
                     </div>
                     <div class="box2">
                         <p><strong> </strong></p>
-                        <center><strong><big>Important Dates</big></strong></center>
+                        <center>
+                            <strong><big>Important Dates</big></strong>
+                        </center>
                         <strong> </strong> <br />
                         <strong>Main Track:</strong> <br />
-                        <span> Submission deadline:
-                        </span><span></span><span><span>
-                                <font color="863F0F">
-                                    January 28, 2024
-                                </font>
+                        <span> Submission deadline: </span><span></span><span><span>
+                                <font color="863F0F"> January 28, 2024 </font>
                             </span> </span><br />
                         <!-- <span>Final Extended submission deadline (Firm): <strong> March 04, 2023</strong></span><br /> -->
                         <!-- <span>Further extended submission deadline (firm): TBD</span><br/> -->
@@ -236,8 +274,7 @@
                             <font color="863F0F">April 24, 2024</font>
                         </span><br />
                         <span>Camera-ready papers: </span><span></span><span>
-                            <font color="863F0F">May
-                                05, 2024</font>
+                            <font color="863F0F">May 05, 2024</font>
                         </span><br />
                         <!-- <s>Early registration (for authors): Mar. 30, 2018</s><br /> -->
                         <!-- <s>Early registration (for non-authors): Apr. 30, 2018</s><br /> -->
@@ -245,19 +282,17 @@
                         <font color="863F0F">May 24 - 26, 2024</font><br />
                         <br />
                         <!--Early-registration deadline: Apr. 20, 2018<br /> -->
-                        <strong>Poster/Demo
-                            Session:</strong> <br />
+                        <strong>Poster/Demo Session:</strong> <br />
                         <span>Submission deadline: </span><span></span><span>
                             <font color="863F0F">March 20, 2024</font>
                         </span><br />
-                        <!-- <s>New submission deadline: Feb. 14, 2018</s><br /> --><span>Acceptance
-                            notification: </span><span></span><span>
+                        <!-- <s>New submission deadline: Feb. 14, 2018</s><br /> --><span>Acceptance notification:
+                        </span><span></span><span>
                             <font color="863F0F">April 24, 2024</font>
                         </span>
                         <br />
                         <span>Camera-ready papers: </span><span></span><span>
-                            <font color="863F0F">May
-                                05, 2024</font>
+                            <font color="863F0F">May 05, 2024</font>
                         </span><br />
                         <br />
                         <strong>Workshop Session:</strong> <br />
@@ -290,21 +325,30 @@
                         <p></p>
                         <p></p>
                         <a class="twitter-timeline" data-width="360" data-height="360" data-theme="dark"
-                            data-link-color="#E95F28" href="https://twitter.com/isorc2?ref_src=twsrc%5Etfw">Tweets
-                            by isorc2023</a>
+                            data-link-color="#E95F28" href="https://twitter.com/isorc2?ref_src=twsrc%5Etfw">Tweets by
+                            isorc2023</a>
                         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                     <!--<div class="box3" >
                   <p><strong>Information:</strong> <br />                  <a  href="resources/ISORC2018_keynoteAbhik.txt" target="_blank">May 29: Keynote by Abhik Roychoudhury. From timing and energy analysis to testing</a> <br />                  <!--<br />                  <a href="html/visa.html">Visa information</a>                </div>-->
                 </div>
-               <!--  <div style="font-size: 22px; text-align: center"> <strong> Click <a href="https://www.nashville.com/"
+                <!--  <div style="font-size: 22px; text-align: center"> <strong> Click <a href="https://www.nashville.com/"
                             target="_blank" rel="noopener noreferrer">here</a> or <a
                             href="https://www.visitmusiccity.com/" target="_blank" rel="noopener noreferrer">here</a>
                         to find Nashville visitor and tourist information. </strong>
                 </div> -->
-                <div class="highlightBox"
-                    style="background-color: #f49d0e; border-color: #1d4e89; font-size: 22px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:bold; text-align: center">
-                    Keynote Speaker </div>
+                <div class="highlightBox" style="
+              background-color: #f49d0e;
+              border-color: #1d4e89;
+              font-size: 22px;
+              padding: 5px;
+              padding-left: 5px;
+              margin-top: 20px;
+              font-weight: bold;
+              text-align: center;
+            ">
+                    Keynote Speaker
+                </div>
                 <style type="text/css">
                     .tg {
                         border-collapse: collapse;
@@ -333,62 +377,60 @@
                     }
 
                     .tg .tg-9h7z {
-                        background-color: #D4E6F1;
+                        background-color: #d4e6f1;
                         border-color: white;
                         font-family: Tahoma, Geneva, sans-serif !important;
-                        ;
                         font-size: 20px;
                         font-weight: bold;
                         text-align: left;
-                        vertical-align: top
+                        vertical-align: top;
                     }
 
                     .tg .tg-23jp {
-                        background-color: #F2F4F4;
+                        background-color: #f2f4f4;
                         border-color: inherit;
-                        color: #2E4053;
+                        color: #2e4053;
                         font-size: 22px;
                         font-weight: bold;
                         text-align: left;
-                        vertical-align: top
+                        vertical-align: top;
                     }
 
                     .tg .tg-z6g2 {
                         border-color: inherit;
                         font-family: "Times New Roman", Times, serif !important;
-                        ;
                         font-size: 20px;
                         text-align: left;
-                        vertical-align: top
+                        vertical-align: top;
                     }
                 </style>
                 <table class="tg">
                     <thead>
                         <tr>
-                            <th class="tg-9h7z"> Speaker: Coming Soon
+                            <th class="tg-9h7z">
+                                Speaker: Coming Soon
                                 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="tg-9h7z"> Title: Coming Soon </td>
+                            <td class="tg-9h7z">Title: Coming Soon</td>
                         </tr>
                         <tr>
                             <td class="tg-23jp">Abstract</td>
                         </tr>
                         <tr>
                             <td class="tg-z6g2">
-                                <p align="justify">
-                                    
-                                </p>
+                                <p align="justify"></p>
                             </td>
                         </tr>
                         <tr>
-                            <td class="tg-23jp">Bio:   
-                                 <!-- <a href="https://engineering.wustl.edu/faculty/Sanjoy-Baruah.html">Prof. Sanjoy Baruah</a> -->
-                                 <!-- Bio Name-->
-                                </td>
+                            <td class="tg-23jp">
+                                Bio:
+                                <!-- <a href="https://engineering.wustl.edu/faculty/Sanjoy-Baruah.html">Prof. Sanjoy Baruah</a> -->
+                                <!-- Bio Name-->
+                            </td>
                         </tr>
                         <tr>
                             <td class="tg-z6g2">
@@ -409,7 +451,6 @@
                                     He is a Fellow of the IEEE, and the recipient of the 2014 Outstanding Technical
                                     Contributions and Leadership Award of
                                     the IEEE Technical Committee on Real-Time Systems. -->
-
                                 </p>
                             </td>
                         </tr>
@@ -422,11 +463,20 @@
                 </div>
                 <br />
                 <br />
-                <div class="highlightBox"
-                    style="background-color: #f49d0e; border-color: #1d4e89; font-size: 22px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:bold; text-align: center">
-                    Acknowledgment </div>
-                <p> We acknowledge support from the following.</p>
-                <table style="width:100%">
+                <div class="highlightBox" style="
+              background-color: #f49d0e;
+              border-color: #1d4e89;
+              font-size: 22px;
+              padding: 5px;
+              padding-left: 5px;
+              margin-top: 20px;
+              font-weight: bold;
+              text-align: center;
+            ">
+                    Acknowledgment
+                </div>
+                <p>We acknowledge support from the following.</p>
+                <table style="width: 100%">
                     <tbody>
                         <tr>
                             <td><img src="resources/ieee.png" width="250" border="0" /></td>
@@ -438,7 +488,9 @@
 
                 <!-- InstanceEndEditable -->
             </div>
-            <div id="footerBlock">27th IEEE INTERNATIONAL SYMPOSIUM ON REAL-TIME DISTRIBUTED COMPUTING</div>
+            <div id="footerBlock">
+                27th IEEE INTERNATIONAL SYMPOSIUM ON REAL-TIME DISTRIBUTED COMPUTING
+            </div>
             <br />
             <br />
         </div>
