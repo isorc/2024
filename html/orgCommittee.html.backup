@@ -147,8 +147,137 @@
                 <!--     <div id="comSpacer"><div id="commMember">Bran Selic</div><div id="commAffil">Malina Software Corporation, Canada</div></div> -->
                 <!--     <div id="comSpacer"><div id="commMember">Makoto Takizawa</div><div id="commAffil">Hosei University, Japan</div></div> -->
                 <!--    </div> -->
-                <p> Coming soon!</p>
-             
+                <div style="width: 650px; margin-top: 20px;">
+                    <div id="committeeHeading" style="margin-top:0px;">General Chairs</div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="http://www.es.mdh.se/staff/360-Mohammad_Ashjaei">Mohammad
+                                Ashjaei</a></div>
+                        <div id="commAffil">Mälardalen University, Sweden </div>
+                    </div>
+
+                    <!--                     <div id="comSpacer">
+                        <div id="commMember"><a href="https://engineering.vanderbilt.edu/bio/gabor-karsai"> Gabor
+                                Karsai</a>
+                        </div>
+                        <div id="commAffil">Vanderbilt University, USA </div>
+                    </div> -->
+
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="https://www.cs.cityu.edu.hk/%7Enanguan/">GUAN
+                                Nan</a></div>
+                        <div id="commAffil">City University of Hong Kong</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="http://www.dre.vanderbilt.edu/%7Egokhale/">Aniruddha
+                                Gokhale</a></div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+
+
+                    <div id="committeeHeading">Program Committee Chairs</div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="https://cs.uiowa.edu/people/octav-chipara">Chipara
+                                Octav<br />
+                            </a></div>
+                        <div id="commAffil">University of Iowa, USA</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="https://yehancpsl.github.io/">Yehan Ma<br />
+                            </a></div>
+                        <div id="commAffil">Shanghai Jiao Tong University, China</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="http://retis.sssup.it/%7Eluca/">Luca Abeni</a> </div>
+                        <div id="commAffil">Scuola Superiore Sant'Anna, Pisa, Italy</div>
+                    </div>
+                    <div id="committeeHeading">Local Chair</div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a
+                                href="https://engineering.vanderbilt.edu/bio/jonathan-sprinkle">Sprinkle,
+                                Jonathan M</a></div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+                    <div id="committeeHeading">Web Chair</div>
+                    <div id="comSpacer">
+                        <div id="commMember">
+
+                            <a href="https://scholar.google.fr/citations?user=hWFrDC4AAAAJ&hl=fr"> Akram Hakiri</a>
+                        </div>
+                        <div id="commAffil">University of Carthage, Tunisia</div>
+                    </div>
+                    <div id="committeeHeading">Publicity Chair</div>
+                    <div id="comSpacer">
+                        <div id="commMember">
+                            <a href="https://www.kth.se/profile/mabecker">Matthias Becker </a>
+                        </div>
+                        <div id="commAffil">Royal Institute of Technology, KTH, Sweden</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember">
+                            <a href="http://faculty.neu.edu.cn/tangyue/en/zhym/52913/list/index.htm">Yue Tang</a>
+                        </div>
+                        <div id="commAffil">Northeastern University, China</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember">
+
+                            <a href="https://scholar.google.fr/citations?user=hWFrDC4AAAAJ&hl=fr"> Akram Hakiri</a>
+                        </div>
+                        <div id="commAffil">University of Carthage, Tunisia</div>
+                    </div>
+                    <div id="committeeHeading">Local Organization Team</div>
+                    <div id="comSpacer">
+                        <div id="commMember">
+                            Mary Margaret Sprinkle</a></div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember">Amy Karns</div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember">Gerilynn Pearce</div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="https://engineering.vanderbilt.edu/bio/abhishek-dubey">Abhishek
+                                Dubey</a> </div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+
+                    <!--
+            <div id="committeeHeading">Artifact Evaluation Chair</div>            <div id="comSpacer">
+                <div id="commMember">Daniel Mosse</div>                <div id="commAffil">University of Pittsburgh</div>
+            </div> -->
+                    <div id="committeeHeading">Steering Committee Members</div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="https://www.es.cs.uni-frankfurt.de/team/Uwe_Brinkschulte/">Uwe
+                                Brinkschulte</a></div>
+                        <div id="commAffil">Goethe Universität Frankfurt am Main, Germany</div>
+                    </div>
+
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="https://cs.gmu.edu/%7Erpettit/">Robert G Pettit</a></div>
+                        <div id="commAffil">George Mason University, USA</div>
+                    </div>
+                    <!-- <div id="comSpacer">
+                        <div id="commMember"><a href="https://engineering.vanderbilt.edu/bio/gabor-karsai">Gabor
+                                Karsai</a> </div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div> -->
+
+                    <div id="committeeHeading">Finance Chair</div>
+                    <div id="comSpacer">
+                        <div id="commMember"><a href="">Ward Bryan</a> </div>
+                        <div id="commAffil">Vanderbilt University, USA</div>
+                    </div>
+                    <!-- <div id="committeeHeading">Submission Chair</div>
+                    <div id="comSpacer" "=" "> -->
+                    <!-- <div id="commMember "><a href="https://people.mpi-sws.org/%7Ebbb/ ">Björn
+                B. Brandenburg</a></div> -->
+                    <!-- <div id="commAffil ">Max Planck Institute for Software Systems
+              (MPI-SWS), Germany</div> -->
+                </div>
                 <!-- InstanceEndEditable -->
             </div>
 
