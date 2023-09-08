@@ -30,8 +30,8 @@
 #nav li ul { top: 38px; }
 
 /* special widths for each column */
-#nav li:hover>ul.aboutWidth {width: 220px;}
-#nav li:hover>ul.aboutWidth li a {width: 200px;}
+#nav li:hover>ul.aboutWidth {width: 260px;}
+#nav li:hover>ul.aboutWidth li a {width: 260px;}
 
 
 /* special widths for each column */
